@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-input {
+        @apply w-full border border-gray-300 rounded-md px-4 py-2 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-btn focus:border-transparent transition;
+    }
+}
+
+@layer components {
+    .button {
+        @apply inline-block w-fit rounded-md border-[1px] bg-transparent px-6 py-2.5 text-sm font-semibold border-btn text-white transition-colors duration-300 hover:bg-btnh hover:border-black hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2;
+    }
+}
+
+@layer components {
+    .button-inverse {
+        @apply w-full rounded-md border-[1px] border-black bg-transparent px-6 py-2.5 text-sm font-semibold text-black transition-colors duration-300 hover:bg-btnh hover:border-black hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2;
+    }
+}
+
