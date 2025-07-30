@@ -104,24 +104,14 @@ const AboutUsSection: React.FC = () => {
                     </div>
                     
                     {/* Contenido de la tarjeta */}
-                    <div className="absolute inset-0 flex flex-col justify-end p-6">
+                    <Link
+                      to={service.link}
+                      className="absolute inset-0 flex flex-col justify-end p-6 transition-all duration-300 hover:bg-black/10"
+                    >
                       <div className="transform transition-transform duration-500 group-hover:-translate-y-4">
                         <h3 className="text-2xl font-bold text-white mb-2 font-bitter">{service.title}</h3>
                       </div>
-                      
-                      {/* Botón que aparece al hacer hover */}
-                      <div className="transition-all duration-500 mt-2">
-                        <Link
-                          to={service.link}
-                          className="inline-flex items-center px-6 py-3 bg-primary text-white font-semibold rounded-md hover:bg-primary/90 transition-colors"
-                        >
-                          Learn More
-                          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </div>
+                    </Link>
                   </div>
                 ))}
               </div>
