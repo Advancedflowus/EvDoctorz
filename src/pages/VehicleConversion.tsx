@@ -108,7 +108,7 @@ export default function CommercialAccount() {
               Contact us today and discover how we can help grow your business with reliable and cost-effective EV support.
             </p>
             <a
-              href="https://app.shopmonkey.io/quote-request/e89e08158684fc96d01b24b2959533d3?noExternalScripts=1"
+              href="https://app.shopmonkey.cloud/public/quote-request/c09a013d-877c-42e9-b9b8-8df879aaa4cd?noExternalScripts=1"
               target="_blank"
               rel="noopener noreferrer"
             >
