@@ -96,7 +96,7 @@ export default function Hardware() {
             Whether you're looking to charge faster, modernize your dashboard, or simply future-proof your EV — <span className="text-btn font-semibold">EV Doctorz</span> has you covered. Let’s turn your vision into reality.
           </p>
           <a
-            href="https://app.shopmonkey.io/quote-request/e89e08158684fc96d01b24b2959533d3?noExternalScripts=1"
+            href="https://app.shopmonkey.cloud/public/quote-request/c09a013d-877c-42e9-b9b8-8df879aaa4cd?noExternalScripts=1"
             target="_blank"
             rel="noopener noreferrer"
           >
